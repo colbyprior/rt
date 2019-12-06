@@ -117,3 +117,7 @@ svg.icon-bordered {
     border-radius: 0.1em;
     padding: 0.2em 0.25em 0.15em;
 }
+
+legend {
+  font-size: 1rem;
+}
