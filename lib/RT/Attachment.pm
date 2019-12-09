@@ -188,6 +188,7 @@ sub Create {
                 TransactionId => $args{'TransactionId'},
                 Parent        => $id,
                 Attachment    => $part,
+		Headers    => $head,
             );
             unless ($id) {
                 $RT::Logger->crit("Attachment insert failed: ". $RT::Handle->dbh->errstr);
